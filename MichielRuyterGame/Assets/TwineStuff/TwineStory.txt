@@ -1,0 +1,418 @@
+:: StoryTitle
+Van Snotaap tot Admiraal
+
+:: StoryData
+{
+ "ifid": "A59AF3D0-9CF8-46BD-ADF1-6EF200D38AB1",
+ "format": "Entweedle",
+ "format-version": "1.1.1",
+ "startnode": "1",
+ "zoom": "1",
+ "start": "Van snotaap tot admiraal"
+}
+
+:: UserScript [script]
+
+
+:: UserStylesheet [stylesheet]
+
+
+:: Van snotaap tot admiraal {"position":"91,39","size":"100,100"}
+Dit is een interactief verhaal over het leven van Michiel de Ruyter. Nederlands grooste zeeheld. Door dit verhaal te volgen leer je over deze legende.
+[[Tusseninfo]]
+
+:: Snotaap {"position":"220,40","size":"100,100"}
+In het vroege voorjaar van 1607 in een knusse straat in het centrum Vlissingen wordt een legende geboren, alleen weet hij dat zelf nog niet. Hij is geboren op een steenworp van de haven en wilde van kinds af aan de zee zien. 
+
+[[Tusseninfo1]]
+
+:: Snotaap1 {"position":"347,42","size":"100,100"}
+Vlissingen is een drukke haven in de tijd van Michiel de Ruyter, want Vlissingen is het centrum van de koopvaart, kaapvaart, walvisvaart, visserij en de marine. 
+
+[[Snotaap2]]
+
+:: Snotaap2 {"position":"478,43","size":"100,100"}
+De vader van Michiel was biersteker. In de jeugd van Michiel was hij niet de braafste jongen van de klas. Mede door dit gedrag is hij van school gestuurd. 
+
+<style>
+	img {
+		max-width:75%;
+		max-height:75%;
+	}
+</style>
+
+<img src="https://i.pinimg.com/originals/23/34/3c/23343c565a6ccb5813bbb38b9877ed1f.jpg"\>
+
+[[Snotaap3]]
+
+:: Snotaap3 {"position":"614,44","size":"100,100"}
+Michiel was een echte kwajongen of ook wel een snotaap. Op tien jarige leeftijd beklom hij de Torenspits van de Sint Jacobskerk. Hij beklom deze toren omdat hij de zee wou zien, want hij wist op vroege leeftijd al dat hij wou gaan varen.
+
+Dat is die grote kerk op onderstaande plaatje.
+<style>
+	img {
+		max-width:75%;
+		max-height:75%;
+	}
+</style>
+
+<img src="https://i.pinimg.com/originals/23/34/3c/23343c565a6ccb5813bbb38b9877ed1f.jpg"\>
+
+[[Snotaap4]]
+
+:: Snotaap4 {"position":"746,45","size":"100,100"}
+Michiel was pas 11 jaar oud toen hij op 3 augustus 1618 als hoogbootsmansjongen op een bewapend schip naar Zuid-Amerika en het Caraïbisch gebied ging. Toen Michiel deze reis maakte woedde er een hevige strijd tussen Spanje en Nederland.
+
+<style>
+	img {
+		max-width:75%;
+		max-height:75%;
+	}
+</style>
+
+<img src="https://storage.pubble.nl/f1bc20f5/content/2017/4/da834a99-5f0f-4dfb-ab46-dfd6870d8069.jpg"\>
+
+[[Snotaap5]]
+
+:: Snotaap5 {"position":"875,44","size":"100,100"}
+Deze strijd heet ook wel de tachtig jarige oorlog. De eerste fase was meer een opstand/burgeroorlog. Tijdens deze eerste zeereis van Michiel was er wel een wapen stilstand die het Twaalfjarig Bestand heette. Tijdens dit bestand werd er nauwelijks tot niet gevochten tussen Spanje en Nederland. 
+
+<style>
+	img {
+		max-width:75%;
+		max-height:75%;
+	}
+</style>
+
+<img src="https://dutchrevolt.leiden.edu/dutch/geografie/G/PublishingImages/gibraltar.jpg"\>
+
+[[Snotaap6]]
+
+:: Snotaap6 {"position":"1003,43","size":"100,100"}
+Tijdens een van de latere reizen van Michiel werd hij door de Spanjaarden gewond gevangengenomen. Hij ontsnapte bij de stad A Coruña en liep met zijn kameraden terug naar Nederland. Dit is alleen nog maar het begin van deze levende legende.
+
+<style>
+	img {
+		max-width:75%;
+		max-height:75%;
+	}
+</style>
+
+<img src="https://i0.wp.com/www.galiciatips.com/nl/files/2017/12/a-coruna.jpg?ssl=1"\>
+
+[[Snotaap7]]
+
+:: Snotaap7 {"position":"1138,42","size":"100,100"}
+Vier jaar gaan voorbij en hij kwam onder de hoede van zijn oom aan zijn moeders kant. Zijn oom was Ruiter in het leger van Prins Maurits van Oranje wat opdat moment gelegerd voor Kleef lag. Hij name samen met zijn oom deel aan het beleg van Bergen op Zoom. Deze stad werd belegerd door het Spaanse Nederlanden.
+
+<style>
+	img {
+		max-width:75%;
+		max-height:75%;
+	}
+</style>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Beleg_van_Bergen_op_Zoom%2C_1588_van_Parma.JPG"\>
+
+[[Snotaap8]]
+
+:: Snotaap8 {"position":"1136,197","size":"100,100"}
+Michiel was ‘Busschieter’ in staatse leger. Dit hield in dat hij artillerist was aangezien daar echt een groot tekort van was.
+
+<style>
+	img {
+		max-width:75%;
+		max-height:75%;
+	}
+</style>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/90/French_Infantry_-_1630_Louis_XIII._Artillerie_%28Gustave_David%2C_1830%29.jpg"\>
+
+[[Naar zee]]
+
+:: Naar zee {"position":"101,352","size":"100,100"}
+Michiel gaat in 1633 op walvisvaart met de Noorse compagnie ‘de groene leeuw’. Hij is hier stuurman en vaart naar het eiland Jan Mayen. 2 Jaar later vaart hij op hetzelfde schip naar Spitsbergen weer als stuurman.
+
+<style>
+	img {
+		max-width:75%;
+		max-height:75%;
+	}
+</style>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Cornelis_de_Man_-_De_traankokerij_van_de_Amsterdamse_kamer_van_de_Noordse_Compagnie_op_Smerenburg.jpg/2560px-Cornelis_de_Man_-_De_traankokerij_van_de_Amsterdamse_kamer_van_de_Noordse_Compagnie_op_Smerenburg.jpg"\>
+
+[[Naar zee2]]
+
+:: Naar zee2 {"position":"229,353","size":"100,100"}
+Michiel werkt zich op door de rangen heen en behaald de rang schout-bij-nacht. Deze rang had hij tijdens de Zeeslag bij Kaap Sint-Vincent. De Nederlander hielp de Portugezen met hun strijd voor onafhankelijkheid van de Spanjaarden.
+
+<style>
+	img {
+		max-width:75%;
+		max-height:75%;
+	}
+</style>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Slag_bij_St_Vincent_4_november_1641.jpg"\>
+
+[[Naar zee3]]
+
+:: Naar zee3 {"position":"355,353","size":"100,100"}
+Van 1644 tot en met 1651 maakte De Ruyter met zijn schip de Salamander vele handelstochten op Marokko en West-Indië voor eigen rekening. In 1650 verbleef De Ruyter meer dan acht maanden in Santa Cruz (het huidige Agadir). De reden is niet bekend. Wel liet De Ruyter optekenen dat hij daar "met veel verdriet" was. Zijn reizen naar Marokko waren zeer profijtelijk. Hij verkocht wapens, peper, bijlen, zilveren kroezen, kistjes en hoeden aan Sidi Ali ben Mohammed, de leider van een opstandige zuidelijke provincie. Later verjoeg hij de Algerijnse zeerovers die met hun boten de haven van Salé blokkeerden. Hij werd vervolgens met de grootste eer in die stad ontvangen.
+
+<style>
+	img {
+		max-width:75%;
+		max-height:75%;
+	}
+</style>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Slag_bij_St_Vincent_4_november_1641.jpg"\>
+
+[[Naar zee4]]
+
+:: Naar zee4 {"position":"486,354","size":"100,100"}
+Na de dood van zijn tweede vrouw op 15 september 1650 hertrouwde De Ruyter op 8 januari 1652 met de zeemansweduwe Anna van Gelder (1614–1687). Zij had een dochter en een zoon uit een eerder huwelijk. Hij kocht een fraai huis op de hoek tussen de Lange Nieuwstraat en het Groenewoud, en besloot te gaan rentenieren. Later dat jaar wordt dochter Margaretha geboren. Zijn laatste kind is Anna die geboren werd in 1655 en in 1666 aan de pest overleed.
+
+<style>
+	img {
+		max-width:75%;
+		max-height:75%;
+	}
+</style>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Slag_bij_St_Vincent_4_november_1641.jpg"\>
+
+[[Naar zee5]]
+
+:: Naar zee5 {"position":"618,354","size":"100,100"}
+Nu heb je de basis informatie over Michiel de Ruyter totdat hij admiraal werd. Vanaf dit moment wordt zijn leven alleen nog maar interessanter en gaat het echte avontuur beginnen. Dit moment in zijn leven begint deze groot zee man aan zijn echte avontuur en voert in totaal drie keer oorlog met de Engelsen.
+
+<style>
+	img {
+		max-width:75%;
+		max-height:75%;
+	}
+</style>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Beerstraaten%2C_Battle_of_Scheveningen.jpg"\>
+
+[[Zeeslag Test]]
+
+:: Tusseninfo {"position":"161,179","size":"100,100"}
+<style>
+	img {
+		max-width:50%;
+		max-height:50%;
+	}
+</style>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Bol%2C_Michiel_de_Ruyter.jpg/1024px-Bol%2C_Michiel_de_Ruyter.jpg"\>
+
+Dit is hem onze groote zeeheld. Je kent deze afbeelding vast wel als je in het scheepvaart museum bent geweest.
+
+[[Snotaap]]
+
+:: Tusseninfo1 {"position":"290,180","size":"100,100"}
+<style>
+	img {
+		max-width:75%;
+		max-height:75%;
+	}
+</style>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Vlissingen_in_vogelvlucht%2C_1669.jpg"\>
+
+In bovenstaande afbeelding zie je waar Michiel is geboren.
+
+[[Snotaap1]]
+
+:: Zeeslag Test {"position":"79,578","size":"100,100"}
+De eerste engelse oorlog is begonnen en Michiel de Ruyter gaat naar zee met zijn vloot. Nu mag jij het roer nemen over zijn vlaggeschip de Kleine Neptunis.
+
+<img src="https://marineschepen.nl/schepen/images/de-zeven-provincien-1665.jpg"\>
+
+[[Kleine Neptunis]]
+
+:: Kleine Neptunis {"position":"211,579","size":"100,100"}
+Michiel de Rutyer vaart op 23 Augustus 1653 als Vice-Admiraal naar de zeeslag bij Plymouth. De stuurman vraagt aan Michiel welke kant hij op moet. Michiel geeft antwoord:
+
+[[Huh wat bedoel je?->Antwoord 1]]
+[[Hij kijkt naar de matroos en zegt:->Antwoord 2]]
+
+:: Antwoord 1 {"position":"359,545","size":"100,100"}
+Michiel geeft antwoord en zegt: Hebben ze je dat nooit geleerd op het schip stuurman?! De stuurman geeft antwoord en zegt jawel, maar ik ben nerveus voor de oorlog. Ach stel je niet zo aan en vaar richting het zuid zuid-west en rap. We hebben nog een lange vaart achter de rug.
+
+[[Michiel mompelt wat en het schip vaart verder->Negatief]]
+
+:: Antwoord 2 {"position":"358,670","size":"100,100"}
+Stuurman zegt Michiel, ben je nerveus? En de stuurman geeft antwoord en zegt ja Admiraal. Dit is mijn eerste oorlog en ik heb barre en vervelende verhalen gehoord. Michiel geeft antwoord en zegt: Ons land heeft ons nodig en ik ben bereid om alles te geven. Ik ben niet nerveus dus moet jij dat ook niet zijn! Nou zet koers pal Zuid Zuid-West!
+
+[[De wind is gunstig zegt hij tegen zijn officier->Positief]]
+
+:: Negatief {"position":"511,546","size":"100,100"}
+Michiel de Ruyter vaart door richting Plymouth.
+
+[[De zon schijnt en de wind is goed->Negatief1]]
+
+:: Positief {"position":"508,677","size":"100,100"}
+De sfeer is goed aanboord en ze varen richting Plymouth
+
+[[De zee is rustig en de vaart zit er goed in->Positief1]]
+
+:: Negatief1 {"position":"646,547","size":"100,100"}
+In de verte ziet Michiel de Ruyter de linieschepen van de Engelsen. Hij roept over het dek dat het schip gevechts klaar moet zijn. Het boots personeel is heel erg nerveus. En gaat over tot het klaar maken van het schip.
+
+[[Michiel kijkt door zijn verrekijker->Vraag van de Officier 1]]
+
+:: Positief1 {"position":"646,677","size":"100,100"}
+Aan de horizon zien de mariniers de schepen van de Engelsen. Michiel spreekt zijn soldaten toe en zegt dat het schip gevechtsklaar moet zijn. Het moraal is goed en ze gaan meteen hard aan het werk.
+
+[[Michiel kijkt door zijn verrekijker->Vraag van de Officier 2]]
+
+:: Negatief2 {"position":"1131,472","size":"100,100"}
+Michiel de Ruyter vormt een linie tegen over de Engelsen en zorgt ervoor dat de Mariniers weten wat ze moeten doen.
+
+[[Hij bereid zich voor op het gevecht->Negatief3]]
+
+:: Positief2 {"position":"1140,777","size":"100,100"}
+Michiel spreekt met een positieve toon zijn manriniers toe en zorgt ervoor dat iedereen weet wat de plannen zijn.
+
+[[Hij bereid zich voor op het gevecht->Positief3]]
+
+:: Negatief3 {"position":"1269,474","size":"100,100"}
+De oorlog begint het moraal is hoog, maar het is niet op zijn best. De eerste schoten worden gelost en missen. Michiel roept naar zijn bemanning: Kom op makkers! Dit zijn schoten om de afstand te meten dus stel je niet zo aan en doe je werk. Stilte valt en ze proberen hun werk te doen.
+
+[[Hij schreeuwt naar zijn matrozen dat ze de kanonen moeten bemannen->Negatief4]]
+
+:: Positief3 {"position":"1274,780","size":"100,100"}
+De oorlog begint het moraal is hoog. De eerste schoten worden gelost en missen. Michiel roept naar zijn bemanning: Kom op makkers! Dit zijn schoten om de afstand te meten als we allemaal ons werk doen dan winnen we dit. De mariniers krijgen hier enorme veel moraal van en gaan extra hard werken.
+
+[[Hij observeerd het slagveld->Schoten]]
+
+:: Vraag van de Officier 1 {"position":"788,551","size":"100,100"}
+Michiel! Moeten wij geen linie vormen?
+
+[[Wat zeg jij nou weer->Doe niet zo gek]]
+[[Ik dacht dat ik dat al zei->Goed idee]]
+
+:: Vraag van de Officier 2 {"position":"788,679","size":"100,100"}
+Michiel! Moeten wij geen linie vormen?
+
+[[Wat zeg jij nou weer->Doe niet zo gek 1]]
+[[Ik dacht dat ik dat al zei->Goed idee 1]]
+
+:: Goed idee {"position":"978,595","size":"100,100"}
+Ja goed idee! Laten we dat doen! Vlaggenjongen gooi de linie vlag op en rap een beetje!
+
+[[De vlaggenjongen hangt de vlag aan de stok->LinieNegatief]]
+
+:: Doe niet zo gek {"position":"979,468","size":"100,100"}
+In linie?! Dat werkt niet want Thromp laat weer een gat vallen dan varen die Engelsen zo door onze linie heen!
+
+[[Hij mompeld wat en zegt die fratsen moet ik niks van hebben->Negatief2]]
+
+:: Goed idee 1 {"position":"980,843","size":"100,100"}
+Ja goed idee! Laten we dat doen! Vlaggenjongen gooi de linie vlag op!
+
+[[Vlaggenjongen gooi de vlag maar op->Positief2]]
+
+:: Doe niet zo gek 1 {"position":"979,717","size":"100,100"}
+In linie?! Dat werkt niet want Thromp laat weer een gat vallen dan varen die Engelsen zo door onze linie heen! Maar laten we het proberen en als Thromp een gat laat vallen kan hij vetrekken!
+
+[[Vlaggenjongen gooi de vlag maar op->Positief2]]
+
+:: LinieNegatief {"position":"1131,611","size":"100,100"}
+Michiel de Ruyter vormt een linie tegen over de Engelsen en zorgt ervoor dat de Mariniers weten wat ze moeten doen.
+
+[[Hij bereid zich voor op het gevecht->LinieNegatief1]]
+
+:: LinieNegatief1 {"position":"1267,610","size":"100,100"}
+De oorlog begint het moraal is hoog, maar het is niet op zijn best. De eerste schoten worden gelost en missen. Michiel roept naar zijn bemanning: Kom op makkers! Dit zijn schoten om de afstand te meten dus stel je niet zo aan en doe je werk. Stilte valt en ze proberen hun werk te doen.
+
+[[Hij kijkt door zijn verrekijker->LinieNegatief2]]
+
+:: Schoten {"position":"1416,781","size":"100,100"}
+Kanons schoten vliegen om de oren van de bemanning, maar ze blijven hun werk doen en luisteren goed naar de commando's van Michiel.
+
+[[Vier slagen links->Schoten1]]
+
+:: LinieNegatief2 {"position":"1405,610","size":"100,100"}
+Kanons schoten vliegen om de oren van de bemanning, maar ze proberen hun werk doen en luisteren goed naar de commando's van Michiel, maar zo af en toe gaat er een matroos in shock.
+
+[[Stel de zeilen bij schreeuwt hij->LinieNegatief3]]
+
+:: Negatief4 {"position":"1406,472","size":"100,100"}
+Kanons schoten vliegen om de oren van de bemanning, maar ze proberen hun werk doen en luisteren goed naar de commando's van Michiel, maar zo af en toe gaat er een matroos in shock.
+
+[[Hij kijkt door zijn verrekijker naar de schade bij de Engelsen->Negatief5]]
+
+:: Negatief5 {"position":"1546,472","size":"100,100"}
+De Engelsen roepen tegen elkaar dat de Nederlanders niet echt discipline hebben. Michiel roept naar zijn bemanning dat ze rap weer naar de kannon toe moet en aan het werk moeten.
+
+[[Stel de zeilen bij schreeuwt hij->Negatief6]]
+
+:: LinieNegatief3 {"position":"1543,612","size":"100,100"}
+Doordat de schepen in linie varen hebben wij een grotere kans op winnen, maar de Engelsen hebben ook een goede manier van in linie varen. Michiel schreeuwt naar zijn matrozen dat ze terug aan het werk moeten.
+
+[[Hij kijkt door de verrekijker naar de Engelsen->LinieNegatief4]]
+
+:: Schoten1 {"position":"1546,783","size":"100,100"}
+Er wordt hard gevochten en de Engelsen missen af en toe doordat de Nederlanders een goede linie vormen en goed luisteren naar Michiel.
+
+[[Hij kijkt door zijn verrekijker->Schoten2]]
+
+:: Negatief6 {"position":"1687,475","size":"100,100"}
+Het gevecht is over en zowel de Engelsen als de Nederlanders hebben veel schepen verloren. De Nederlanders hebben 20 schepen verloren en 2000 man zijn gevangen genomen door de Engelsen. Michiel is boos en stormt terug naar zijn huis.
+
+[[Hij komt thuis aan->EndNegatief]]
+
+:: LinieNegatief4 {"position":"1684,615","size":"100,100"}
+Het gevecht is over en zowel de Engelsen als de Nederlanders hebben veel schepen verloren. De Nederlanders hebben 10 schepen verloren en 500 man zijn gevangen genomen door de Engelsen. Al en al de Nederlanders zijn de winnaars aangezien er meer schepen kapot zijn bij de Engelsen.
+
+[[Hij gaat terug naar wal->EndLinie]]
+
+:: Schoten2 {"position":"1679,785","size":"100,100"}
+Het gevecht is over en zowel de Engelsen als de Nederlanders hebben veel schepen verloren. De Nederlanders hebben 5 schepen verloren en 500 man zijn gevangen genomen door de Engelsen. Al en al de Nederlanders zijn de winnaars aangezien er meer schepen kapot zijn bij de Engelsen. In linie varen met de nieuwe manier van seinen heeft ons echt geholpen zegt Michiel tegen Cornelis de Witt.
+
+[[Hij gaat terug naar wal->EndPostief]]
+
+:: EndNegatief {"position":"1851,476","size":"100,100"}
+Einde!
+
+Je hebt alleen wel een negatieve route gekozen dus als je deze opnieuw wil doen klik dan 1 van de onderstaande routes.
+
+Wist je trouwens dat Michiel de Ruyter een van de eerste was binnen de Nederlansche Vloot om in linie varen voor te stellen.
+
+[[Kleine Neptunis]]
+[[Doe niet zo gek]]
+[[Goed idee]]
+[[Doe niet zo gek 1]]
+[[Goed idee 1]]
+
+:: EndLinie {"position":"1847,616","size":"100,100"}
+Einde!
+
+Je hebt alleen wel een negatieve route gekozen dus als je deze opnieuw wil doen klik dan 1 van de onderstaande routes.
+
+Wist je trouwens dat Michiel de Ruyter een van de eerste was binnen de Nederlansche Vloot om in linie varen voor te stellen. Linie varen was toen de tijd zeer effectief en veranderde de manier van scheeps gevechten.
+
+[[Kleine Neptunis]]
+[[Doe niet zo gek]]
+[[Goed idee]]
+[[Doe niet zo gek 1]]
+[[Goed idee 1]]
+
+:: EndPostief {"position":"1844,788","size":"100,100"}
+Einde!
+
+Je hebt de positieve route gekozen dus als je deze opnieuw wil doen klik dan 1 van de onderstaande routes.
+
+Wist je trouwens dat Michiel de Ruyter een van de eerste was binnen de Nederlansche Vloot om in linie varen voor te stellen.
+
+[[Kleine Neptunis]]
+[[Doe niet zo gek]]
+[[Goed idee]]
+[[Doe niet zo gek 1]]
+[[Goed idee 1]]
