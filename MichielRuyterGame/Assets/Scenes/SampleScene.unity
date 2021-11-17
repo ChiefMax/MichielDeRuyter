@@ -804,7 +804,7 @@ GameObject:
   - component: {fileID: 1194039606}
   - component: {fileID: 1194039605}
   m_Layer: 0
-  m_Name: RawImage
+  m_Name: DisplayWindowImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1409,6 +1409,20 @@ MonoBehaviour:
       van Bergen op Zoom. Deze stad werd belegerd door het Spaanse Nederlanden.
     - "Michiel was \u2018Busschieter\u2019 in staatse leger. Dit hield in dat hij
       artillerist was aangezien daar echt een groot tekort van was."
+  texture:
+    textures:
+    - {fileID: 2800000, guid: 3c8213cacc3c44445b197592854f34cf, type: 3}
+    - {fileID: 2800000, guid: d8d1c6500ed5ca241b01bd4ae64f48ff, type: 3}
+    - {fileID: 2800000, guid: 3b4b0e7329f08224693cd578e5722029, type: 3}
+    - {fileID: 2800000, guid: 3c760c00dd5a2ee4299765109bddcfbf, type: 3}
+    - {fileID: 2800000, guid: 980dec494b64a924ea744afef9c6b23c, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
 --- !u!1 &1348143643
 GameObject:
   m_ObjectHideFlags: 0
@@ -2419,6 +2433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 1207254804}
   dialogueText: {fileID: 1704783411}
+  imageToDisplay: {fileID: 1194039605}
 --- !u!4 &2022100230
 Transform:
   m_ObjectHideFlags: 0
