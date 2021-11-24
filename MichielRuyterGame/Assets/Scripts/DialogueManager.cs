@@ -12,6 +12,8 @@ public class DialogueManager : MonoBehaviour
     public RawImage imageToDisplay;
     public Queue<Texture> rawImages = new Queue<Texture>();
 
+    public GameObject CanvasItem;
+
     private Queue<string> sentences;
 
     // Start is called before the first frame update
@@ -46,6 +48,7 @@ public class DialogueManager : MonoBehaviour
         if (sentences.Count == 0) 
         {
             EndDialogue();
+            CanvasItem.SetActive(false);
             return;
         }
 
