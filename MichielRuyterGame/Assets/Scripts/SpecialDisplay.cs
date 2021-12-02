@@ -6,6 +6,6 @@ public class SpecialDisplay : MonoBehaviour
 {
     public void SpecialDialogueTrigger()
     {
-        FindObjectOfType<PopUpDialogue>().StartDialogue();
+        FindObjectOfType<DialogueDisplay>().StartDialogue();
     }
 }

@@ -23,6 +23,50 @@ public class DialogueDisplay : MonoBehaviour
         //Debug.Log("Testing " + scriptableObj.chapter);
     }
 
+    //public void DisplayNextSentence()
+    //{
+    //    if (sentences.Count == 0)
+    //    {
+    //        EndDialogue();
+    //        CanvasItem.SetActive(false);
+    //        return;
+    //    }
+
+
+
+    //    string sentence = sentences.Dequeue();
+    //    Texture texture = rawImages.Dequeue();
+    //    //Debug.Log(sentence);
+    //    dialogueText.text = sentence;
+    //    imageToDisplay.texture = texture;
+    //}
+
+
+    public void StartDialogue(/*Dialogue dialogue, ImagesShow show*/)
+    {
+        //Debug.Log("Starting convo with " + dialogue.name);
+        //nameText.text = dialogue.name;
+
+        //scriptableObj.chapter = nameText.text;
+        nameText.text = scriptableObj.chapter;
+
+        sentences.Clear();
+        rawImages.Clear();
+
+
+        foreach (string sentence in scriptableObj.dialogueText)
+        {
+            sentences.Enqueue(sentence);
+        }
+
+        foreach (Texture texture in scriptableObj.imagesInUI)
+        {
+            rawImages.Enqueue(texture);
+        }
+
+        DisplayNextSentence();
+    }
+
     public void DisplayNextSentence()
     {
         if (sentences.Count == 0)
@@ -45,52 +89,4 @@ public class DialogueDisplay : MonoBehaviour
     {
         Debug.Log("Done talking.");
     }
-
-    //public void StartDialogue(/*Dialogue dialogue, ImagesShow show*/)
-    //{
-    //    //Debug.Log("Starting convo with " + dialogue.name);
-    //    //nameText.text = dialogue.name;
-
-    //    //scriptableObj.chapter = nameText.text;
-    //    nameText.text = scriptableObj.chapter;
-
-    //    sentences.Clear();
-    //    rawImages.Clear();
-
-
-    //    foreach (string sentence in scriptableObj.dialogueText)
-    //    {
-    //        sentences.Enqueue(sentence);
-    //    }
-
-    //    foreach (Texture texture in scriptableObj.imagesInUI)
-    //    {
-    //        rawImages.Enqueue(texture);
-    //    }
-
-    //    DisplayNextSentence();
-    //}
-
-    //public void DisplayNextSentence()
-    //{
-    //    if (sentences.Count == 0)
-    //    {
-    //        EndDialogue();
-    //        CanvasItem.SetActive(false);
-    //        return;
-    //    }
-
-
-
-    //    string sentence = sentences.Dequeue();
-    //    Texture texture = rawImages.Dequeue();
-    //    //Debug.Log(sentence);
-    //    dialogueText.text = sentence;
-    //    imageToDisplay.texture = texture;
-    //}
-
-    //void EndDialogue()
-    //{
-    //    Debug.Log("Done talking.");
-    //}
 }
