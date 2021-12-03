@@ -15,22 +15,22 @@ public class PopUpDialogue : MonoBehaviour
 
     public GameObject canvas;
 
-    //public DialogueScriptableObj scriptableObj;
-    //public DialogueDisplay dialogueDisplay;
+    public BranchingDialogueManager branchingDialogue;
 
     public TMP_Text nameText;
     public TMP_Text dialogueText;
 
     public RawImage imageToDisplay;
-    public GameObject CanvasItem;
 
     private Queue<string> sentences = new Queue<string>();
     public Queue<Texture> rawImages = new Queue<Texture>();
 
+    private int storySelect;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -40,6 +40,62 @@ public class PopUpDialogue : MonoBehaviour
         {
             canvas.SetActive(true);
         }
+
+        if (showOp1) 
+        {
+            nameText.text = branchingDialogue.scriptableObj[0].chapter;
+            storySelect = 0;
+        }
+        if (showOp2)
+        {
+            nameText.text = branchingDialogue.scriptableObj[1].chapter;
+            storySelect = 1;
+        }
+    }
+
+    public void StartDialogue()
+    {
+        //if (sho) 
+        //{
+
+        //}
+        nameText.text = branchingDialogue.scriptableObj[storySelect].chapter;
+
+        sentences.Clear();
+        rawImages.Clear();
+
+        foreach (string sentence in branchingDialogue.scriptableObj[storySelect].dialogueText)
+        {
+            sentences.Enqueue(sentence);
+        }
+
+        foreach (Texture texture in branchingDialogue.scriptableObj[storySelect].imagesInUI)
+        {
+            rawImages.Enqueue(texture);
+        }
+
+        DisplayNextSentence();
+    }
+
+    public void DisplayNextSentence()
+    {
+        if (sentences.Count == 0)
+        {
+            EndDialogue();
+            canvas.SetActive(false);
+            return;
+        }
+
+        string sentence = sentences.Dequeue();
+        //Texture texture = rawImages.Dequeue();
+        //Debug.Log(sentence);
+        dialogueText.text = sentence;
+        //imageToDisplay.texture = texture;
+    }
+
+    void EndDialogue()
+    {
+        Debug.Log("Done talking.");
     }
 
 
@@ -48,11 +104,13 @@ public class PopUpDialogue : MonoBehaviour
         if (other.gameObject.tag == "Option1") 
         {
             showCanvas = true;
+            showOp1 = true;
         }
 
         if (other.gameObject.tag == "Option2")
         {
             showCanvas = true;
+            showOp2 = true;
         }
     }
 }
