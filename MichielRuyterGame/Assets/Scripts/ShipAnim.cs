@@ -5,6 +5,8 @@ using UnityEngine;
 public class ShipAnim : MonoBehaviour
 {
     private Animator animator;
+    public GameObject canvas1;
+    public GameObject canvas2;
 
     private void Start()
     {
@@ -13,12 +15,16 @@ public class ShipAnim : MonoBehaviour
 
     private void Update()
     {
+        if (canvas1.activeSelf || canvas2.activeSelf)
+        {
+            return;
+        }
         if (Input.GetKey(KeyCode.A))
         {
             //Debug.Log("Moving left");
             animator.SetBool("isLeftKey", true);
         }
-        else 
+        else
         {
             animator.SetBool("isLeftKey", false);
         }
@@ -28,6 +34,11 @@ public class ShipAnim : MonoBehaviour
             //Debug.Log("Moving right");
             animator.SetBool("isRightKey", true);
         }
+    }
 
+    public void FreezeMovement()
+    {
+        animator.SetBool("isLeftKey", false);
+        animator.SetBool("isRightKey", false);
     }
 }

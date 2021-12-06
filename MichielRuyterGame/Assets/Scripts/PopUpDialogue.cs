@@ -6,16 +6,25 @@ using UnityEngine.UI;
 
 public class PopUpDialogue : MonoBehaviour
 {
-    public bool showCanvas;
-    public bool showOp1 = false;
-    public bool showOp2 = false;
+    private bool showCanvas;
+    private bool showOp1 = false;
+    private bool showOp2 = false;
+    private bool showOp3 = false;
+    private bool showOp4 = false;
+    private bool showOp5 = false;
+    private bool showOp6 = false;
 
     public GameObject Option1;
     public GameObject Option2;
+    public GameObject Option3;
+    public GameObject Option4;
+    public GameObject Option5;
+    public GameObject Option6;
 
     public GameObject canvas;
 
     public BranchingDialogueManager branchingDialogue;
+    public ShipAnim ship;
 
     public TMP_Text nameText;
     public TMP_Text dialogueText;
@@ -51,14 +60,30 @@ public class PopUpDialogue : MonoBehaviour
             nameText.text = branchingDialogue.scriptableObj[1].chapter;
             storySelect = 1;
         }
+        if (showOp3) 
+        {
+            nameText.text = branchingDialogue.scriptableObj[2].chapter;
+            storySelect = 2;
+        }
+        if (showOp4)
+        {
+            nameText.text = branchingDialogue.scriptableObj[3].chapter;
+            storySelect = 3;
+        }
+        if (showOp5)
+        {
+            nameText.text = branchingDialogue.scriptableObj[4].chapter;
+            storySelect = 4;
+        }
+        if (showOp6)
+        {
+            nameText.text = branchingDialogue.scriptableObj[5].chapter;
+            storySelect = 5;
+        }
     }
 
     public void StartDialogue()
     {
-        //if (sho) 
-        //{
-
-        //}
         nameText.text = branchingDialogue.scriptableObj[storySelect].chapter;
 
         sentences.Clear();
