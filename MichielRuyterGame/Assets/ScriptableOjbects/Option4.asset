@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c700a38bdcd3b0e4a941997456abbc31, type: 3}
+  m_Name: Option4
+  m_EditorClassIdentifier: 
+  chapter: 
+  dialogueText:
+  - Ja goed idee! Laten we dat doen! Vlaggenjongen gooi de linie vlag op en rap een
+    beetje!
+  - Michiel de Ruyter vormt een linie tegen over de Engelsen en zorgt ervoor dat
+    de Mariniers weten wat ze moeten doen.
+  - 'De oorlog begint het moraal is hoog, maar het is niet op zijn best. De eerste
+    schoten worden gelost en missen. Michiel roept naar zijn bemanning: Kom op makkers!
+    Dit zijn schoten om de afstand te meten dus stel je niet zo aan en doe je werk.
+    Stilte valt en ze proberen hun werk te doen.'
+  - Kanons schoten vliegen om de oren van de bemanning, maar ze proberen hun werk
+    doen en luisteren goed naar de commando's van Michiel, maar zo af en toe gaat
+    er een matroos in shock.
+  - Doordat de schepen in linie varen hebben wij een grotere kans op winnen, maar
+    de Engelsen hebben ook een goede manier van in linie varen. Michiel schreeuwt
+    naar zijn matrozen dat ze terug aan het werk moeten.
+  - Het gevecht is over en zowel de Engelsen als de Nederlanders hebben veel schepen
+    verloren. De Nederlanders hebben 10 schepen verloren en 500 man zijn gevangen
+    genomen door de Engelsen. Al en al de Nederlanders zijn de winnaars aangezien
+    er meer schepen kapot zijn bij de Engelsen.
+  imagesInUI: []

@@ -14,7 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chapter: Testing option 1
   dialogueText:
-  - Test option1
-  - Nog eens een test
+  - 'Michiel geeft antwoord en zegt: Hebben ze je dat nooit geleerd op het schip
+    stuurman?! De stuurman geeft antwoord en zegt jawel, maar ik ben nerveus voor
+    de oorlog. Ach stel je niet zo aan en vaar richting het zuid zuid-west en rap.
+    We hebben nog een lange vaart achter de rug.'
+  - Michiel de Ruyter vaart door richting Plymouth.
+  - In de verte ziet Michiel de Ruyter de linieschepen van de Engelsen. Hij roept
+    over het dek dat het schip gevechts klaar moet zijn. Het boots personeel is heel
+    erg nerveus. En gaat over tot het klaar maken van het schip.
+  - In de verte ziet Michiel de Ruyter de linieschepen van de Engelsen. Hij roept
+    over het dek dat het schip gevechts klaar moet zijn. Het boots personeel is heel
+    erg nerveus. En gaat over tot het klaar maken van het schip.
+  - Michiel! Moeten wij geen linie vormen?
   imagesInUI:
   - {fileID: 2800000, guid: d8d1c6500ed5ca241b01bd4ae64f48ff, type: 3}

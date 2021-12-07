@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c700a38bdcd3b0e4a941997456abbc31, type: 3}
+  m_Name: Option6
+  m_EditorClassIdentifier: 
+  chapter: 
+  dialogueText:
+  - Ja goed idee! Laten we dat doen! Vlaggenjongen gooi de linie vlag op!
+  - Michiel spreekt met een positieve toon zijn manriniers toe en zorgt ervoor dat
+    iedereen weet wat de plannen zijn.
+  - 'De oorlog begint het moraal is hoog. De eerste schoten worden gelost en missen.
+    Michiel roept naar zijn bemanning: Kom op makkers! Dit zijn schoten om de afstand
+    te meten als we allemaal ons werk doen dan winnen we dit. De mariniers krijgen
+    hier enorme veel moraal van en gaan extra hard werken.'
+  - Kanons schoten vliegen om de oren van de bemanning, maar ze blijven hun werk
+    doen en luisteren goed naar de commando's van Michiel.
+  - Er wordt hard gevochten en de Engelsen missen af en toe doordat de Nederlanders
+    een goede linie vormen en goed luisteren naar Michiel.
+  - Het gevecht is over en zowel de Engelsen als de Nederlanders hebben veel schepen
+    verloren. De Nederlanders hebben 5 schepen verloren en 500 man zijn gevangen
+    genomen door de Engelsen. Al en al de Nederlanders zijn de winnaars aangezien
+    er meer schepen kapot zijn bij de Engelsen. In linie varen met de nieuwe manier
+    van seinen heeft ons echt geholpen zegt Michiel tegen Cornelis de Witt.
+  imagesInUI: []

@@ -14,7 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chapter: Testing option2
   dialogueText:
-  - Test option 2
-  - Meer test test test test test
+  - 'Stuurman zegt Michiel, ben je nerveus? En de stuurman geeft antwoord en zegt
+    ja Admiraal. Dit is mijn eerste oorlog en ik heb barre en vervelende verhalen
+    gehoord. Michiel geeft antwoord en zegt: Ons land heeft ons nodig en ik ben bereid
+    om alles te geven. Ik ben niet nerveus dus moet jij dat ook niet zijn! Nou zet
+    koers pal Zuid Zuid-West!'
+  - De sfeer is goed aanboord en ze varen richting Plymouth
+  - De sfeer is goed aanboord en ze varen richting Plymouth
+  - Aan de horizon zien de mariniers de schepen van de Engelsen. Michiel spreekt
+    zijn soldaten toe en zegt dat het schip gevechtsklaar moet zijn. Het moraal is
+    goed en ze gaan meteen hard aan het werk.
+  - Michiel! Moeten wij geen linie vormen?
   imagesInUI:
   - {fileID: 2800000, guid: 3b4b0e7329f08224693cd578e5722029, type: 3}
