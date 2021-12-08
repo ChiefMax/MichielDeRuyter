@@ -32,4 +32,10 @@ MonoBehaviour:
     genomen door de Engelsen. Al en al de Nederlanders zijn de winnaars aangezien
     er meer schepen kapot zijn bij de Engelsen. In linie varen met de nieuwe manier
     van seinen heeft ons echt geholpen zegt Michiel tegen Cornelis de Witt.
-  imagesInUI: []
+  imagesInUI:
+  - {fileID: 2800000, guid: d8d1c6500ed5ca241b01bd4ae64f48ff, type: 3}
+  - {fileID: 2800000, guid: 3b4b0e7329f08224693cd578e5722029, type: 3}
+  - {fileID: 2800000, guid: 3c8213cacc3c44445b197592854f34cf, type: 3}
+  - {fileID: 2800000, guid: 3b4b0e7329f08224693cd578e5722029, type: 3}
+  - {fileID: 2800000, guid: 3c760c00dd5a2ee4299765109bddcfbf, type: 3}
+  - {fileID: 2800000, guid: 980dec494b64a924ea744afef9c6b23c, type: 3}
