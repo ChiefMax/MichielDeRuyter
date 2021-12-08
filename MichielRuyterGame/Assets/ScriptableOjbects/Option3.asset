@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c700a38bdcd3b0e4a941997456abbc31, type: 3}
+  m_Name: Option3
+  m_EditorClassIdentifier: 
+  chapter: 
+  dialogueText:
+  - In linie?! Dat werkt niet want Thromp laat weer een gat vallen dan varen die
+    Engelsen zo door onze linie heen!
+  - Michiel de Ruyter vormt een linie tegen over de Engelsen en zorgt ervoor dat
+    de Mariniers weten wat ze moeten doen.
+  - 'De oorlog begint het moraal is hoog, maar het is niet op zijn best. De eerste
+    schoten worden gelost en missen. Michiel roept naar zijn bemanning: Kom op makkers!
+    Dit zijn schoten om de afstand te meten dus stel je niet zo aan en doe je werk.
+    Stilte valt en ze proberen hun werk te doen.'
+  - Kanons schoten vliegen om de oren van de bemanning, maar ze proberen hun werk
+    doen en luisteren goed naar de commando's van Michiel, maar zo af en toe gaat
+    er een matroos in shock.
+  - De Engelsen roepen tegen elkaar dat de Nederlanders niet echt discipline hebben.
+    Michiel roept naar zijn bemanning dat ze rap weer naar de kannon toe moet en
+    aan het werk moeten.
+  - Het gevecht is over en zowel de Engelsen als de Nederlanders hebben veel schepen
+    verloren. De Nederlanders hebben 20 schepen verloren en 2000 man zijn gevangen
+    genomen door de Engelsen. Michiel is boos en stormt terug naar zijn huis.
+  imagesInUI: []
