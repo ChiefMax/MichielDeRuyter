@@ -21,7 +21,7 @@ public class ShipAnim : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.A))
         {
-            //Debug.Log("Moving left");
+            Debug.Log("Moving left");
             animator.SetBool("isIdle", false);
             animator.SetBool("isLeftKey", true);
         }
@@ -32,7 +32,7 @@ public class ShipAnim : MonoBehaviour
 
         if (Input.GetKey(KeyCode.D))
         {
-            //Debug.Log("Moving right");
+            Debug.Log("Moving right");
             animator.SetBool("isIdle", false);
             animator.SetBool("isRightKey", true);
         }

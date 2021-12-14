@@ -31,10 +31,4 @@ MonoBehaviour:
   - Het gevecht is over en zowel de Engelsen als de Nederlanders hebben veel schepen
     verloren. De Nederlanders hebben 20 schepen verloren en 2000 man zijn gevangen
     genomen door de Engelsen. Michiel is boos en stormt terug naar zijn huis.
-  imagesInUI:
-  - {fileID: 2800000, guid: d8d1c6500ed5ca241b01bd4ae64f48ff, type: 3}
-  - {fileID: 2800000, guid: 3c8213cacc3c44445b197592854f34cf, type: 3}
-  - {fileID: 2800000, guid: 3c760c00dd5a2ee4299765109bddcfbf, type: 3}
-  - {fileID: 2800000, guid: 980dec494b64a924ea744afef9c6b23c, type: 3}
-  - {fileID: 2800000, guid: 980dec494b64a924ea744afef9c6b23c, type: 3}
-  - {fileID: 2800000, guid: d8d1c6500ed5ca241b01bd4ae64f48ff, type: 3}
+  imagesInUI: []

@@ -32,10 +32,4 @@ MonoBehaviour:
     verloren. De Nederlanders hebben 10 schepen verloren en 500 man zijn gevangen
     genomen door de Engelsen. Al en al de Nederlanders zijn de winnaars aangezien
     er meer schepen kapot zijn bij de Engelsen.
-  imagesInUI:
-  - {fileID: 2800000, guid: 3c8213cacc3c44445b197592854f34cf, type: 3}
-  - {fileID: 2800000, guid: d8d1c6500ed5ca241b01bd4ae64f48ff, type: 3}
-  - {fileID: 2800000, guid: 3b4b0e7329f08224693cd578e5722029, type: 3}
-  - {fileID: 2800000, guid: d8d1c6500ed5ca241b01bd4ae64f48ff, type: 3}
-  - {fileID: 2800000, guid: 3c8213cacc3c44445b197592854f34cf, type: 3}
-  - {fileID: 2800000, guid: 3c760c00dd5a2ee4299765109bddcfbf, type: 3}
+  imagesInUI: []

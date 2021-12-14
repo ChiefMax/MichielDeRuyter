@@ -136,10 +136,10 @@ public class PopUpDialogue : MonoBehaviour
         }
 
         string sentence = sentences.Dequeue();
-        Texture texture = rawImages.Dequeue();
+        //Texture texture = rawImages.Dequeue();
         //Debug.Log(sentence);
         dialogueText.text = sentence;
-        imageToDisplay.texture = texture;
+        //imageToDisplay.texture = texture;
     }
 
     void EndDialogue()
