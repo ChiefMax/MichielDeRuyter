@@ -21,6 +21,9 @@ public class PopUpDialogue : MonoBehaviour
     public GameObject Option5;
     public GameObject Option6;
 
+    public GameObject resetButton;
+    public GameObject nextSentenceButton;
+
     public GameObject Options1;
     public GameObject Options2;
     public GameObject Options3;
@@ -36,7 +39,7 @@ public class PopUpDialogue : MonoBehaviour
     public RawImage imageToDisplay;
 
     private Queue<string> sentences = new Queue<string>();
-    public Queue<Texture> rawImages = new Queue<Texture>();
+    //public Queue<Texture> rawImages = new Queue<Texture>();
 
     private int storySelect;
 
@@ -96,17 +99,17 @@ public class PopUpDialogue : MonoBehaviour
         dialogueText.text = "";
 
         sentences.Clear();
-        rawImages.Clear();
+        //rawImages.Clear();
 
         foreach (string sentence in branchingDialogue.scriptableObj[storySelect].dialogueText)
         {
             sentences.Enqueue(sentence);
         }
 
-        foreach (Texture texture in branchingDialogue.scriptableObj[storySelect].imagesInUI)
-        {
-            rawImages.Enqueue(texture);
-        }
+        //foreach (Texture texture in branchingDialogue.scriptableObj[storySelect].imagesInUI)
+        //{
+        //    rawImages.Enqueue(texture);
+        //}
 
         DisplayNextSentence();
     }
@@ -137,7 +140,7 @@ public class PopUpDialogue : MonoBehaviour
 
         string sentence = sentences.Dequeue();
         //Texture texture = rawImages.Dequeue();
-        //Debug.Log(sentence);
+        Debug.Log(sentence + " " + sentences.Count);
         dialogueText.text = sentence;
         //imageToDisplay.texture = texture;
     }
@@ -149,6 +152,8 @@ public class PopUpDialogue : MonoBehaviour
         ship.BackToIdle();
         canvas.SetActive(false);
         sentences.Clear();
+        resetButton.SetActive(true);
+        nextSentenceButton.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)

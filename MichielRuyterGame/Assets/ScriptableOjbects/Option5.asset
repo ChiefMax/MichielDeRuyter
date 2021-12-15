@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c700a38bdcd3b0e4a941997456abbc31, type: 3}
   m_Name: Option5
   m_EditorClassIdentifier: 
-  chapter: 
+  chapter: Testing option 5
   dialogueText:
   - In linie?! Dat werkt niet want Thromp laat weer een gat vallen dan varen die
     Engelsen zo door onze linie heen! Maar laten we het proberen en als Thromp een
@@ -32,4 +32,3 @@ MonoBehaviour:
     genomen door de Engelsen. Al en al de Nederlanders zijn de winnaars aangezien
     er meer schepen kapot zijn bij de Engelsen. In linie varen met de nieuwe manier
     van seinen heeft ons echt geholpen zegt Michiel tegen Cornelis de Witt.
-  imagesInUI: []

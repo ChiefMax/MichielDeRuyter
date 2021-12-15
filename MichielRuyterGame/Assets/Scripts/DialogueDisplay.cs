@@ -59,10 +59,10 @@ public class DialogueDisplay : MonoBehaviour
             sentences.Enqueue(sentence);
         }
 
-        foreach (Texture texture in scriptableObj.imagesInUI)
-        {
-            rawImages.Enqueue(texture);
-        }
+        //foreach (Texture texture in scriptableObj.imagesInUI)
+        //{
+        //    rawImages.Enqueue(texture);
+        //}
 
         DisplayNextSentence();
     }
