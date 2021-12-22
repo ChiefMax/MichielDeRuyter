@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c700a38bdcd3b0e4a941997456abbc31, type: 3}
   m_Name: Option4
   m_EditorClassIdentifier: 
-  chapter: 
+  chapter: Testing option 4
   dialogueText:
   - Ja goed idee! Laten we dat doen! Vlaggenjongen gooi de linie vlag op en rap een
     beetje!
@@ -32,4 +32,3 @@ MonoBehaviour:
     verloren. De Nederlanders hebben 10 schepen verloren en 500 man zijn gevangen
     genomen door de Engelsen. Al en al de Nederlanders zijn de winnaars aangezien
     er meer schepen kapot zijn bij de Engelsen.
-  imagesInUI: []

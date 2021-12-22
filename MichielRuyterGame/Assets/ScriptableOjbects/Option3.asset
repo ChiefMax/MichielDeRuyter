@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c700a38bdcd3b0e4a941997456abbc31, type: 3}
   m_Name: Option3
   m_EditorClassIdentifier: 
-  chapter: 
+  chapter: Testing option 3
   dialogueText:
   - In linie?! Dat werkt niet want Thromp laat weer een gat vallen dan varen die
     Engelsen zo door onze linie heen!
@@ -31,4 +31,3 @@ MonoBehaviour:
   - Het gevecht is over en zowel de Engelsen als de Nederlanders hebben veel schepen
     verloren. De Nederlanders hebben 20 schepen verloren en 2000 man zijn gevangen
     genomen door de Engelsen. Michiel is boos en stormt terug naar zijn huis.
-  imagesInUI: []

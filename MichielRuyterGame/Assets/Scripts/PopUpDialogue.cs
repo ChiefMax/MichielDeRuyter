@@ -14,6 +14,13 @@ public class PopUpDialogue : MonoBehaviour
     private bool showOp5 = false;
     private bool showOp6 = false;
 
+    private bool smokeEffect1 = false;
+    private bool smokeEffect2 = false;
+
+    private bool once1 = false;
+    private bool once2 = false;
+    private bool once3 = false;
+
     public GameObject Option1;
     public GameObject Option2;
     public GameObject Option3;
@@ -21,11 +28,18 @@ public class PopUpDialogue : MonoBehaviour
     public GameObject Option5;
     public GameObject Option6;
 
+    public GameObject resetButton;
+    public GameObject nextSentenceButton;
+
     public GameObject Options1;
     public GameObject Options2;
     public GameObject Options3;
 
     public GameObject canvas;
+    public GameObject endCanvas;
+
+    public GameObject[] smokeEffectsEnemy;
+    public GameObject smokeEffectsFriendly;
 
     public BranchingDialogueManager branchingDialogue;
     public ShipAnim ship;
@@ -36,14 +50,16 @@ public class PopUpDialogue : MonoBehaviour
     public RawImage imageToDisplay;
 
     private Queue<string> sentences = new Queue<string>();
-    public Queue<Texture> rawImages = new Queue<Texture>();
 
     private int storySelect;
+
+    private int randomParent;
+    private int randomChild;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -62,6 +78,11 @@ public class PopUpDialogue : MonoBehaviour
         {
             nameText.text = branchingDialogue.scriptableObj[0].chapter;
             storySelect = 0;
+            if (!once1) 
+            {
+                smokeEffectsFriendly.transform.GetChild(Random.Range(0, smokeEffectsFriendly.transform.childCount)).gameObject.SetActive(true);
+                once1 = true;
+            }
         }
         if (showOp2)
         {
@@ -72,6 +93,11 @@ public class PopUpDialogue : MonoBehaviour
         {
             nameText.text = branchingDialogue.scriptableObj[2].chapter;
             storySelect = 2;
+            if (!once2) 
+            {
+                smokeEffectsFriendly.transform.GetChild(Random.Range(0, smokeEffectsFriendly.transform.childCount)).gameObject.SetActive(true);
+                once2 = true;
+            }
         }
         if (showOp4)
         {
@@ -82,11 +108,21 @@ public class PopUpDialogue : MonoBehaviour
         {
             nameText.text = branchingDialogue.scriptableObj[4].chapter;
             storySelect = 4;
+            if (!once3) 
+            {
+                smokeEffectsFriendly.transform.GetChild(Random.Range(0, smokeEffectsFriendly.transform.childCount)).gameObject.SetActive(true);
+                once3 = true;
+            }
         }
         if (showOp6)
         {
             nameText.text = branchingDialogue.scriptableObj[5].chapter;
             storySelect = 5;
+            if (!once3)
+            {
+                smokeEffectsFriendly.transform.GetChild(Random.Range(0, smokeEffectsFriendly.transform.childCount)).gameObject.SetActive(true);
+                once3 = true;
+            }
         }
     }
 
@@ -96,16 +132,10 @@ public class PopUpDialogue : MonoBehaviour
         dialogueText.text = "";
 
         sentences.Clear();
-        rawImages.Clear();
 
         foreach (string sentence in branchingDialogue.scriptableObj[storySelect].dialogueText)
         {
             sentences.Enqueue(sentence);
-        }
-
-        foreach (Texture texture in branchingDialogue.scriptableObj[storySelect].imagesInUI)
-        {
-            rawImages.Enqueue(texture);
         }
 
         DisplayNextSentence();
@@ -113,6 +143,7 @@ public class PopUpDialogue : MonoBehaviour
 
     public void DisplayNextSentence()
     {
+        randomChild = Random.Range(0, smokeEffectsEnemy[0].transform.childCount);
         if (sentences.Count == 0)
         {
             EndDialogue();
@@ -123,6 +154,7 @@ public class PopUpDialogue : MonoBehaviour
                 Options2.SetActive(true);
                 sentences.Clear();
                 dialogueText.text = "";
+                smokeEffect1 = true;
             }
 
             if (storySelect == 2 || storySelect == 3 && Options2.activeSelf) 
@@ -131,24 +163,46 @@ public class PopUpDialogue : MonoBehaviour
                 Options3.SetActive(true);
                 sentences.Clear();
                 dialogueText.text = "";
+                smokeEffect2 = true;
+            }
+
+            if (Options3.activeSelf && showOp5 || showOp6)
+            {
+                Debug.Log("Showing end canvas");
+                endCanvas.SetActive(true);
             }
             return;
         }
 
         string sentence = sentences.Dequeue();
-        //Texture texture = rawImages.Dequeue();
-        //Debug.Log(sentence);
         dialogueText.text = sentence;
-        //imageToDisplay.texture = texture;
+
+        if (!smokeEffect1) 
+        {
+            smokeEffectsEnemy[0].transform.GetChild(randomChild).gameObject.SetActive(true);
+        }
+
+        if (!smokeEffect2 && smokeEffect1) 
+        {
+            smokeEffectsEnemy[1].transform.GetChild(randomChild).gameObject.SetActive(true);
+        }
+
+        if (smokeEffect1 && smokeEffect2) 
+        {
+            smokeEffectsEnemy[2].transform.GetChild(randomChild).gameObject.SetActive(true);
+        }
+        
     }
 
     void EndDialogue()
     {
-        Debug.Log("Done talking.");
+        //Debug.Log("Done talking.");
         showCanvas = false;
         ship.BackToIdle();
         canvas.SetActive(false);
         sentences.Clear();
+        resetButton.SetActive(true);
+        nextSentenceButton.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)

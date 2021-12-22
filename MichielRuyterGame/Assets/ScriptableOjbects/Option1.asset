@@ -26,5 +26,4 @@ MonoBehaviour:
     over het dek dat het schip gevechts klaar moet zijn. Het boots personeel is heel
     erg nerveus. En gaat over tot het klaar maken van het schip.
   - Michiel! Moeten wij geen linie vormen?
-  imagesInUI:
-  - {fileID: 2800000, guid: d8d1c6500ed5ca241b01bd4ae64f48ff, type: 3}
+  imagesInUI: []

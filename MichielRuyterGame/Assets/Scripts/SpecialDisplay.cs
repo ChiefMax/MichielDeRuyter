@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpecialDisplay : MonoBehaviour
 {
-    public DialogueScriptableObj obj;
+    //public DialogueScriptableObj obj;
 
     public void SpecialDialogueTrigger()
     {
