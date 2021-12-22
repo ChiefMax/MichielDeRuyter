@@ -36,6 +36,7 @@ public class PopUpDialogue : MonoBehaviour
     public GameObject Options3;
 
     public GameObject canvas;
+    public GameObject endCanvas;
 
     public GameObject[] smokeEffectsEnemy;
     public GameObject smokeEffectsFriendly;
@@ -164,6 +165,12 @@ public class PopUpDialogue : MonoBehaviour
                 dialogueText.text = "";
                 smokeEffect2 = true;
             }
+
+            if (Options3.activeSelf && showOp5 || showOp6)
+            {
+                Debug.Log("Showing end canvas");
+                endCanvas.SetActive(true);
+            }
             return;
         }
 
@@ -189,7 +196,7 @@ public class PopUpDialogue : MonoBehaviour
 
     void EndDialogue()
     {
-        Debug.Log("Done talking.");
+        //Debug.Log("Done talking.");
         showCanvas = false;
         ship.BackToIdle();
         canvas.SetActive(false);
