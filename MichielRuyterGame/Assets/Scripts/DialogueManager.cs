@@ -15,7 +15,14 @@ public class DialogueManager : MonoBehaviour
     public GameObject CanvasItem;
     public GameObject LastSentence1;
 
+    public AudioSource BackgroundSound;
+    public AudioSource Chatter;
+    public AudioSource NavalBattle;
+    public AudioSource WarSound;
+
     private Queue<string> sentences;
+
+    private int counter = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -51,24 +58,34 @@ public class DialogueManager : MonoBehaviour
             EndDialogue();
             CanvasItem.SetActive(false);
             LastSentence1.SetActive(true);
+            BackgroundSound.Stop();
+            Chatter.Stop();
+            WarSound.Stop();
+            NavalBattle.Play();
             return;
         }
 
+        counter++;
 
+        if (counter == 3) 
+        {
+            Debug.Log("Playing market chatter!");
+            Chatter.Play();
+        }
+
+        if (counter == 9) 
+        {
+            Debug.Log("Playing war sounds!");
+            BackgroundSound.Stop();
+            Chatter.Stop();
+            WarSound.Play();
+        }
 
         string sentence = sentences.Dequeue();
         Texture texture = rawImages.Dequeue();
         //Debug.Log(sentence);
         dialogueText.text = sentence;
         imageToDisplay.texture = texture;
-        //foreach (var image in rawImages)
-        //{
-        //    if (sentences.Count == rawImages.Count)
-        //    {
-        //        Debug.Log("sentences count: " + sentences.Count + "raw image texture count: " + rawImages.Count);
-        //        imageToDisplay.texture = image;
-        //    }
-        //}
     }
 
     void EndDialogue() 
