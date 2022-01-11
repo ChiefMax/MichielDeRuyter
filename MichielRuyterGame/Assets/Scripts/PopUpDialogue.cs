@@ -31,6 +31,10 @@ public class PopUpDialogue : MonoBehaviour
     public GameObject resetButton;
     public GameObject nextSentenceButton;
 
+    public GameObject LastSentence1;
+    public GameObject LastSentence2;
+    public GameObject LastSentence3;
+
     public GameObject Options1;
     public GameObject Options2;
     public GameObject Options3;
@@ -83,11 +87,13 @@ public class PopUpDialogue : MonoBehaviour
                 smokeEffectsFriendly.transform.GetChild(Random.Range(0, smokeEffectsFriendly.transform.childCount)).gameObject.SetActive(true);
                 once1 = true;
             }
+            LastSentence1.SetActive(false);
         }
         if (showOp2)
         {
             nameText.text = branchingDialogue.scriptableObj[1].chapter;
             storySelect = 1;
+            LastSentence1.SetActive(false);
         }
         if (showOp3) 
         {
@@ -98,21 +104,29 @@ public class PopUpDialogue : MonoBehaviour
                 smokeEffectsFriendly.transform.GetChild(Random.Range(0, smokeEffectsFriendly.transform.childCount)).gameObject.SetActive(true);
                 once2 = true;
             }
+            LastSentence2.SetActive(false);
         }
         if (showOp4)
         {
             nameText.text = branchingDialogue.scriptableObj[3].chapter;
             storySelect = 3;
+            if (!once3)
+            {
+                smokeEffectsFriendly.transform.GetChild(Random.Range(0, smokeEffectsFriendly.transform.childCount)).gameObject.SetActive(true);
+                once3 = true;
+            }
+            LastSentence2.SetActive(false);
         }
         if (showOp5)
         {
             nameText.text = branchingDialogue.scriptableObj[4].chapter;
             storySelect = 4;
-            if (!once3) 
+            if (!once3)
             {
                 smokeEffectsFriendly.transform.GetChild(Random.Range(0, smokeEffectsFriendly.transform.childCount)).gameObject.SetActive(true);
                 once3 = true;
             }
+            LastSentence3.SetActive(false);
         }
         if (showOp6)
         {
@@ -123,6 +137,7 @@ public class PopUpDialogue : MonoBehaviour
                 smokeEffectsFriendly.transform.GetChild(Random.Range(0, smokeEffectsFriendly.transform.childCount)).gameObject.SetActive(true);
                 once3 = true;
             }
+            LastSentence3.SetActive(false);
         }
     }
 
@@ -148,28 +163,43 @@ public class PopUpDialogue : MonoBehaviour
         {
             EndDialogue();
             canvas.SetActive(false);
-            if (storySelect == 0 || storySelect == 1)
+            if (/*storySelect == 0 ||*/ storySelect == 1)
             {
                 Options1.SetActive(false);
                 Options2.SetActive(true);
                 sentences.Clear();
                 dialogueText.text = "";
                 smokeEffect1 = true;
+                LastSentence1.SetActive(false);
+                LastSentence2.SetActive(true);
             }
 
-            if (storySelect == 2 || storySelect == 3 && Options2.activeSelf) 
+            if (storySelect == 0) 
             {
-                Options2.SetActive(false);
+                Options1.SetActive(false);
                 Options3.SetActive(true);
                 sentences.Clear();
                 dialogueText.text = "";
                 smokeEffect2 = true;
+                LastSentence3.SetActive(true);
+            }
+
+            if (storySelect == 2 || storySelect == 3 && Options2.activeSelf)
+            {
+                Options2.SetActive(false);
+                Options3.SetActive(false);
+                sentences.Clear();
+                dialogueText.text = "";
+                smokeEffect2 = true;
+                LastSentence3.SetActive(false);
+                endCanvas.SetActive(true);
             }
 
             if (Options3.activeSelf && showOp5 || showOp6)
             {
                 Debug.Log("Showing end canvas");
                 endCanvas.SetActive(true);
+                LastSentence3.SetActive(false);
             }
             return;
         }

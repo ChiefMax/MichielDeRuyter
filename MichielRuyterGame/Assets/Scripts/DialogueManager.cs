@@ -13,6 +13,7 @@ public class DialogueManager : MonoBehaviour
     public Queue<Texture> rawImages = new Queue<Texture>();
 
     public GameObject CanvasItem;
+    public GameObject LastSentence1;
 
     private Queue<string> sentences;
 
@@ -49,6 +50,7 @@ public class DialogueManager : MonoBehaviour
         {
             EndDialogue();
             CanvasItem.SetActive(false);
+            LastSentence1.SetActive(true);
             return;
         }
 
