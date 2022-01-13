@@ -21,6 +21,9 @@ public class PopUpDialogue : MonoBehaviour
     private bool once2 = false;
     private bool once3 = false;
 
+    public bool learningNavigate = false;
+    public bool sailInLine = false;
+
     public GameObject Option1;
     public GameObject Option2;
     public GameObject Option3;
@@ -88,6 +91,7 @@ public class PopUpDialogue : MonoBehaviour
                 once1 = true;
             }
             LastSentence1.SetActive(false);
+            learningNavigate = true;
         }
         if (showOp2)
         {
@@ -105,6 +109,7 @@ public class PopUpDialogue : MonoBehaviour
                 once2 = true;
             }
             LastSentence2.SetActive(false);
+            sailInLine = true;
         }
         if (showOp4)
         {
@@ -127,6 +132,7 @@ public class PopUpDialogue : MonoBehaviour
                 once3 = true;
             }
             LastSentence3.SetActive(false);
+            sailInLine = true;
         }
         if (showOp6)
         {

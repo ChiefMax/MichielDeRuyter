@@ -14,14 +14,32 @@ public class EndDialogueManager : MonoBehaviour
 
     public GameObject canvasItem;
     public GameObject quitButton;
+    public GameObject returnMenuButton;
     public GameObject nextSentenceButton;
 
+    public GameObject navigateObject;
+    public GameObject sailingObject;
+
     private Queue<string> sentences;
+    public PopUpDialogue popUp;
 
     // Start is called before the first frame update
     void Start()
     {
         sentences = new Queue<string>();
+    }
+
+    private void Update()
+    {
+        if (popUp.learningNavigate) 
+        {
+            navigateObject.SetActive(true);
+        }
+
+        if (popUp.sailInLine) 
+        {
+            sailingObject.SetActive(true);
+        }
     }
 
     public void StartDialogue(Dialogue dialogue, ImagesShow show)
@@ -51,6 +69,7 @@ public class EndDialogueManager : MonoBehaviour
         {
             EndDialogue();
             quitButton.SetActive(true);
+            returnMenuButton.SetActive(true);
             nextSentenceButton.SetActive(false);
             return;
         }
