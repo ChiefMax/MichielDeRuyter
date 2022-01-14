@@ -92,12 +92,16 @@ public class PopUpDialogue : MonoBehaviour
             }
             LastSentence1.SetActive(false);
             learningNavigate = true;
+            Option1.gameObject.SetActive(false);
+            Option2.gameObject.SetActive(false);
         }
         if (showOp2)
         {
             nameText.text = branchingDialogue.scriptableObj[1].chapter;
             storySelect = 1;
             LastSentence1.SetActive(false);
+            Option2.gameObject.SetActive(false);
+            Option1.gameObject.SetActive(false);
         }
         if (showOp3) 
         {
@@ -110,6 +114,8 @@ public class PopUpDialogue : MonoBehaviour
             }
             LastSentence2.SetActive(false);
             sailInLine = true;
+            Option3.gameObject.SetActive(false);
+            Option4.gameObject.SetActive(false);
         }
         if (showOp4)
         {
@@ -121,6 +127,8 @@ public class PopUpDialogue : MonoBehaviour
                 once3 = true;
             }
             LastSentence2.SetActive(false);
+            Option4.gameObject.SetActive(false);
+            Option3.gameObject.SetActive(false);
         }
         if (showOp5)
         {
@@ -133,6 +141,8 @@ public class PopUpDialogue : MonoBehaviour
             }
             LastSentence3.SetActive(false);
             sailInLine = true;
+            Option5.gameObject.SetActive(false);
+            Option6.gameObject.SetActive(false);
         }
         if (showOp6)
         {
@@ -144,6 +154,8 @@ public class PopUpDialogue : MonoBehaviour
                 once3 = true;
             }
             LastSentence3.SetActive(false);
+            Option6.gameObject.SetActive(false);
+            Option5.gameObject.SetActive(false);
         }
     }
 

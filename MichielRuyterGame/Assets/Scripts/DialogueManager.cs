@@ -73,7 +73,7 @@ public class DialogueManager : MonoBehaviour
             Chatter.Play();
         }
 
-        if (counter == 9) 
+        if (counter == 8) 
         {
             Debug.Log("Playing war sounds!");
             BackgroundSound.Stop();
