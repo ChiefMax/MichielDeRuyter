@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c700a38bdcd3b0e4a941997456abbc31, type: 3}
   m_Name: Option1
   m_EditorClassIdentifier: 
-  chapter: Testing option 1
+  chapter: 
   dialogueText:
   - 'Michiel geeft antwoord en zegt: Hebben ze je dat nooit geleerd op het schip
     stuurman?! De stuurman geeft antwoord en zegt jawel, maar ik ben nerveus voor

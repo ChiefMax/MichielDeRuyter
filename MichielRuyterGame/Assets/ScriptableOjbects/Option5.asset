@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c700a38bdcd3b0e4a941997456abbc31, type: 3}
   m_Name: Option5
   m_EditorClassIdentifier: 
-  chapter: Testing option 5
+  chapter: 
   dialogueText:
   - In linie?! Dat werkt niet want Thromp laat weer een gat vallen dan varen die
     Engelsen zo door onze linie heen! Maar laten we het proberen en als Thromp een

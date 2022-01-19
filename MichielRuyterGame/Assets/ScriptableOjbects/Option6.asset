@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c700a38bdcd3b0e4a941997456abbc31, type: 3}
   m_Name: Option6
   m_EditorClassIdentifier: 
-  chapter: Testing option 6
+  chapter: 
   dialogueText:
   - Ja goed idee! Laten we dat doen! Vlaggenjongen gooi de linie vlag op!
   - Michiel spreekt met een positieve toon zijn manriniers toe en zorgt ervoor dat
